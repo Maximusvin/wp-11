@@ -126,7 +126,7 @@ input[type='radio'].visually-hidden {
 }
 
 .header {
-  background-image: linear-gradient(to top, rgba(163, 197, 255, 0.47), rgba(163, 197, 255, 0.47)), url('../../images/bg-hero.jpg');
+  background-image: linear-gradient(to top, rgba(163, 197, 255, 0.47), rgba(163, 197, 255, 0.47)), url('../images/bg-hero.jpg');
   background-size: cover;
   background-position: center top;
   padding-bottom: 132px;
