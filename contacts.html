@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>LAB Consulting</title>
+    <title>Контакты / LAB Consulting</title>
     <!-- Favicon -->
     <link rel="icon" href="./favicon.png" type="image/x-icon" />
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
     <!-- OG Tags -->
-    <meta property="og:title" content="LAB Consulting" />
+    <meta property="og:title" content="Контакты LAB Consulting" />
     <meta property="og:description" content="Ваш надежный партнер в области транспортно-логистического сопровождения" />
     <meta property="og:type" content="Ваш надежный партнер в области транспортно-логистического сопровождения" />
     <meta property="og:image" content="./images/img-ogm.jpg" />
-    <meta property="og:site_name" content="LAB Consulting" />
+    <meta property="og:site_name" content="Контакты LAB Consulting" />
     <!-- CSS Styles -->
     <link
       rel="stylesheet"
@@ -26,11 +26,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header header__home" id="header">
+    <header class="header" id="header">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-5 col-md-4">
-            <a href="#" class="logo">
+            <a href="./index.html" class="logo">
               <img src="./images/logo.png" class="logo__img" alt="LAB Consulting" />
             </a>
           </div>
@@ -50,7 +50,7 @@
                   <a href="./404.html" class="menu__link">Отрасли</a>
                 </li>
                 <li class="menu__item">
-                  <a href="./contacts.html" class="menu__link">Контакты</a>
+                  <a href="#" class="menu__link">Контакты</a>
                 </li>
               </ul>
             </nav>
@@ -70,169 +70,114 @@
       </div>
     </header>
     <main>
-      <section class="hero" id="hero">
+      <div class="page-nav">
         <div class="container">
-          <div class="row">
-            <div class="col-11 col-md-9 col-lg-8 col-xl-5">
-              <div class="offer">
-                <h1 class="offer__title">LAB Consulting</h1>
-                <p class="offer__text">Ваш надежный партнер в области транспортно-логистического сопровождения</p>
-                <ul class="social">
-                  <li class="social__item social__item--facebook">
-                    <a href="#" class="social__link" title="facebook">
-                      <i class="fab fa-facebook-square"></i>
-                    </a>
+          <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-xl-6">
+              <div class="page-nav__wrap">
+                <h1 class="page-nav__title">Контакты</h1>
+                <ul class="breadcrumbs">
+                  <li class="breadcrumbs__item">
+                    <a href="./index.html" class="breadcrumbs__link">Главная</a>
                   </li>
-                  <li class="social__item social__item--twitter">
-                    <a href="#" class="social__link" title="twitter">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="social__item social__item--telegram">
-                    <a href="#" class="social__link" title="telegram">
-                      <i class="fab fa-telegram-plane"></i>
-                    </a>
-                  </li>
+                  <li class="breadcrumbs__item">Контактная информация</li>
                 </ul>
               </div>
             </div>
+            <div class="col-12 col-xl-6">
+              <nav class="page-nav__navigation">
+                <ul class="page-nav__menu d-sm-flex justify-content-center">
+                  <li class="page-nav__item">
+                    <a href="./404.html" class="page-nav__link">Офис в Одессе</a>
+                  </li>
+                  <li class="page-nav__item">
+                    <a href="./404.html" class="page-nav__link">Офис в Киеве</a>
+                  </li>
+                  <li class="page-nav__item">
+                    <a href="./404.html" class="page-nav__link">Офис в Харькове</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="about" id="about">
+      </div>
+      <section class="map" id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.7193589397966!2d30.743835415591636!3d46.4740665791258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63177c4ed7b2b%3A0x73d09f0b217b7a6!2z0YPQuy4g0JHQsNC30LDRgNC90LDRjywgMzYsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1590932693012!5m2!1sru!2sua"
+          width="100%"
+          height="443"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <h2 class="section-titile about__title">Мы заслужили доверие</h2>
-            </div>
-          </div>
-          <div class="row justify-content-between">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="about__item">
-                <span class="about__icon about__icon--one"></span>
-                <h4 class="about__item-title">Что мы предлагаем?</h4>
-                <p class="about__item-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="about__item">
-                <span class="about__icon about__icon--two"></span>
-                <h4 class="about__item-title">Как мы работаем?</h4>
-                <p class="about__item-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab ill
-                </p>
-              </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-              <div class="about__item about__item--last">
-                <span class="about__icon about__icon--three"></span>
-                <h4 class="about__item-title">Почему мы?</h4>
-                <p class="about__item-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-2">
-              <button type="button" class="about__btn btn">
-                Подробнее
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="virtues" id="virtues">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-12 col-lg-4">
-              <div class="virtues__item">
-                <span class="virtues__icon">l</span>
-                <p class="virtues__item-title"><span class="font-red">L</span>egal</p>
-                <p class="virtues__item-text">
-                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
-                  a complete account of the system, and expound the actual teachings of the great explorer of the truth
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="virtues__item">
-                <span class="virtues__icon">A</span>
-                <p class="virtues__item-title"><span class="font-red">A</span>ccounting</p>
-                <p class="virtues__item-text">
-                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
-                  a complete account of the system, and expound the actual teachings of the great explorer of the truth
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="virtues__item virtues__item--last">
-                <span class="virtues__icon">B</span>
-                <p class="virtues__item-title"><span class="font-red">B</span>usiness</p>
-                <p class="virtues__item-text">
-                  But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
-                  a complete account of the system, and expound the actual teachings of the great explorer of the truth
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="mission" id="mission">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-xl-9">
-              <h3 class="mission__title">Миссия LAB Consulting</h3>
-              <div class="mission__list d-flex justify-content-between flex-wrap">
-                <div class="mission__col-left">
-                  <p class="mission__text">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
-                  </p>
-                  <p class="mission__text">
-                    Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </p>
-                  <a href="#" class="mission__btn btn">Узнать больше</a>
+            <div class="col-12 col-lg-6 col-xl-5 ml-lg-auto">
+              <div class="map__layout">
+                <div class="map__layout-head">
+                  <h2 class="map__layout-title">LAB Consulting</h2>
+                  <ul class="social social--contact">
+                    <li class="social__item social__item--facebook">
+                      <a href="#" class="social__link" title="facebook">
+                        <i class="fab fa-facebook-square"></i>
+                      </a>
+                    </li>
+                    <li class="social__item social__item--twitter">
+                      <a href="#" class="social__link" title="twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="social__item social__item--telegram">
+                      <a href="#" class="social__link" title="telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="mission__col-right">
-                  <p class="mission__text">
-                    Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  </p>
-                  <p class="mission__text">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                    consequatur?
-                  </p>
+                <div class="map__layout-body">
+                  <div class="map__layout-col-left">
+                    <div class="map__layout-phone">
+                      <a href="tel:+38(048)7562354" class="map__layout-link">
+                        <i class="fa fa-phone-alt"></i>
+                        +38 (048) 756-23-54
+                      </a>
+                      <a href="tel:+38(048)7562354" class="map__layout-link">
+                        <i class="fa fa-phone-alt"></i>
+                        +38 (048) 756-23-54
+                      </a>
+                    </div>
+                    <a
+                      href="https://goo.gl/maps/Qy9y3EDqmUvjBRPX9"
+                      target="_blank"
+                      title="Показать на карте"
+                      class="map__layout-link map__layout-link--adress"
+                    >
+                      <i class="fa fa-location-arrow"></i>
+                      <div class="map__layout-adress-wrap">
+                        65000,<br />
+                        Украина, г. Одесса<br />
+                        Ул Базарная, 36
+                      </div>
+                    </a>
+                    <a href="mailto:info@lab-consult.com" class="map__layout-link">
+                      <i class="fa fa-envelope"></i>
+                      info@lab-consult.com
+                    </a>
+                  </div>
+                  <div class="map__layout-col-right">
+                    <p class="map__layout-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <p class="map__layout-text">
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-12 col-xl-3">
-              <h3 class="mission__title">Новости</h3>
-              <ul class="news">
-                <li class="news__item">
-                  <a href="#" class="news__link" title="Читать статью">
-                    <h6 class="news__text">LAB Consulting запускает новое направление в своих услугах</h6>
-                    <span class="news__date">02.12.2015</span>
-                  </a>
-                </li>
-                <li class="news__item">
-                  <a href="#" class="news__link" title="Читать статью">
-                    <h6 class="news__text">LAB Consulting запускает новое направление в своих услугах</h6>
-                    <span class="news__date">02.12.2015</span>
-                  </a>
-                </li>
-                <li class="news__item">
-                  <a href="#" class="news__link" title="Читать статью">
-                    <h6 class="news__text">LAB Consulting запускает новое направление в своих услугах</h6>
-                    <span class="news__date">02.12.2015</span>
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
