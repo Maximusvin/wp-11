@@ -845,21 +845,45 @@ input[type='radio'].visually-hidden {
 }
 
 .not-faund {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .not-faund__title {
-  font-size: 42px;
+  font-size: 34px;
   color: #081d42;
   margin-bottom: 50px;
 }
 
 .not-faund__subtitle {
-  font-size: 22px;
+  font-size: 18px;
   color: #081d42;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   line-height: 1.2em;
+}
+
+.not-faund__title-list {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.not-faund__list {
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.not-faund__item {
+  margin-bottom: 7px;
+  transition: all 0.2s linear;
+}
+
+.not-faund__item:hover {
+  transform: translateX(3px);
+}
+
+.not-faund__link {
+  font-size: 18px;
+  color: #081d42;
 }
 
 .map__layout {
